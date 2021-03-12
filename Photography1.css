@@ -1,0 +1,628 @@
+
+body{
+    width: 100%;
+}
+
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(camera.jpg);
+    background-size: cover;
+    display: table;
+    
+}
+nav h3{
+    float: left;
+    color: white;
+    margin-right: 20px;
+    border: 3px solid;
+    border-style:dashed;
+    border-color: honeydew;
+    padding: 10px;
+    margin-left: 30px;
+    height: 20px;
+    border-radius: 110px;
+    border-color: orange;
+    margin-top: 20px;
+    
+}
+h2{
+    float: left;
+    margin-top: 30px;
+    color: white;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+     background: rgba(0,0,0,0.2);
+}
+nav .menu{
+    margin-left: 600px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+nav .one{
+    margin-right: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.one:hover{
+    box-shadow: 0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500,
+                0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500;
+    text-shadow:  0 0 5px #ffa500, 0 0 5px #ffa500,
+}
+
+nav .two{
+    margin-right: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+}
+.two:hover{
+    box-shadow: 0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500,
+                0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500;
+    text-shadow:  0 0 5px #ffa500, 0 0 5px #ffa500,
+}
+
+nav .three{
+    margin-right: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+}
+.three:hover{
+    box-shadow: 0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500,
+                0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500;
+    text-shadow:  0 0 5px #ffa500, 0 0 5px #ffa500,
+}
+
+nav .four{
+    margin-right: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+}
+.four:hover{
+    box-shadow: 0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500,
+                0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500;
+    text-shadow:  0 0 5px #ffa500, 0 0 5px #ffa500,
+}
+
+nav .five{
+    margin-right: 20px;
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+}
+.five:hover{
+    box-shadow: 0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500,
+                0 5px 50px 0 #ffa500 inset, 0 5px 50px 0 #ffa500;
+    text-shadow:  0 0 5px #ffa500, 0 0 5px #ffa500,
+}
+
+
+section{
+    display:  flex;
+}
+
+.main{
+    margin-top:90px;
+    color: white;
+    width: 80%;
+
+}
+.main p{
+    width: 60%;
+    transform: translateY(-10%);
+    color: orange;
+    
+}
+
+header section h1{
+    font-size: 50px;
+}
+.social{
+    float: left;
+    margin-top:180px;
+    font-size: 30px;
+    width: 30vh;
+    color: white;
+
+}
+
+#one{
+    color: blue;
+}
+#two{
+    color: deeppink;
+}
+#three{
+    color: aqua;
+}
+#four{
+    color:deepskyblue
+}
+#five{
+    color: white;
+}
+.button{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 500px;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    width: 10%;
+    font-size: 20px;
+    padding-left: 60px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+
+    
+}
+.button:hover{
+    background:orange;
+    cursor: pointer;
+}
+
+#mine{
+    margin-left: 450px;
+    margin-top: 80px;
+    font-size: 60px;
+    font-family:sans-serif;
+    border: 2px solid;
+    padding: 30px;
+    color: orange;
+    
+}
+.phone{
+    font-size: 50px;
+    margin-top: 80px;
+}
+#star{
+    color: black;
+    margin-left: 220px;
+    margin-right: 200px;
+}
+#star1{
+    color: black;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+
+#star2{
+    color: black;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+
+#star3{
+    color: black;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+.smart{
+    display: flex;
+    font-size: 30px;
+    color: orange;
+    font-family: cursive;
+    margin-bottom: 0px;
+}
+.sun1{
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.sun2{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sun3{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sun4{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.smart1{
+    display: flex;
+    font-size: 20px;
+    transform: translateY(-20%);
+    font-family: cursive;
+}
+.moon1{
+    width: 15%;
+    margin-left: 90px;
+    margin-right: 20px;
+}
+.moon2{
+    width: 15%;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+.moon3{
+    width: 15%;
+    margin-left: 110px;
+    margin-right: 20px;
+}
+.moon4{
+    width: 15%;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.super{
+    display: flex;
+    margin-top: 10px;
+}
+#work{
+    
+    font-size: 30px;
+    float: right;
+    margin-right: 70px;
+    width: 30%;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.searchbox{
+    
+    margin-top: 50px;
+    height: 1px;
+    border-radius: 50px;
+    background: orange;
+    padding: 10px;
+    width: 95%;
+    margin-left: 20px;
+}
+.photo{
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+.box1{
+    width: 33%;
+    height: 600px;
+    background-image:url(casey-horner-4rDCa5hBlCs-unsplash.jpg);
+    background-size:cover;
+
+}
+.box2{
+    width: 33%;
+    height: 600px;
+     background-image:url(david-kovalenko-dnStBR008JM-unsplash.jpg);
+    background-size:cover;
+     
+}
+.box3{
+    width: 33%;
+    height: 600px;
+     background-image:url(dominik-lange-BFsm5vldl2I-unsplash.jpg);
+    background-size:cover;
+    
+}
+.win{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 40px;
+    color: white;
+}
+
+.btn{
+    float: right;
+    margin-top: 40px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: orange;
+    margin-right: 150px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.btn:hover{
+    background:white;
+    cursor: pointer;
+}
+.me{
+    margin-top: 200px;
+    display: flex;
+    background-color: antiquewhite;
+    height: 80%;
+}
+.me1{
+    margin-left: 60px;
+    margin-top: 40px;
+    background-size: cover;
+}
+.my{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#me2{
+    font-size: 40px;
+    font-family: fantasy
+}
+.me3{
+    font-size: 20px;
+    width: 80%;
+}
+.me4{
+    font-family: fantasy
+}
+    
+
+.super1{
+    display: flex;
+    margin-top: 50px;
+}
+.work1{
+    
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+    width: 30%;
+    margin-left: 50px;
+    font-size: 40px;
+}
+.searchbox1{
+    
+    margin-top: 50px;
+    height: 1px;
+    border-radius: 50px;
+    background: orange;
+    padding: 10px;
+    width: 95%;
+    margin-left: 20px;
+}
+.video{
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    background-color: navajowhite;
+}
+.super3{
+    display: flex;
+    margin-top: 80px;
+}
+#work3{
+    
+    font-size: 30px;
+    float: right;
+    margin-right: 10px;
+    width: 20%;
+    margin-left: 50px;
+    font-size: 40px;
+    
+}
+.searchbox3{
+    
+    margin-top: 50px;
+    height: 1px;
+    border-radius: 50px;
+    background: orange;
+    padding: 10px;
+    width: 105%;
+    margin-left: 20px;
+}
+.menus{
+    display: flex;
+    height: 80vh;
+    background-color: orange;
+}
+
+.menu1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    width: 25%;
+    background-color: white;
+    font-family:sans-serif;
+}
+.menu2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    width: 25%;
+    background-color: white;
+    font-family:sans-serif;
+}
+.menu3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    width: 25%;
+    background-color:white;
+    font-family:sans-serif;
+}
+.sub1{
+    font-size: 40px;
+    margin-top: 30px;
+    font-family:fantasy;
+    text-transform: uppercase;
+    margin-left: 60px;
+    color: brown;
+    margin-bottom: 15px;
+}
+.sub2{
+    font-family: fantasy;
+    color: orange;
+    margin-left: 60px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sub3{
+        margin-left: 60px;
+       font-size: 15px;
+       width: 50%;
+       font-family: fantasy;
+    margin-bottom: 35px;
+}
+.sub4{
+     margin-left: 55px;
+    font-size: 15px;
+    font-family: fantasy;
+    margin-bottom: 60px;
+
+    
+    
+}
+.btn5{
+    margin-left: 130px;
+    padding: 30px;
+    border: 1px solid;
+    color: black;
+    font-family: fantasy;
+    border-color: orange;
+}
+.btn5:hover{
+    background:orange;
+    cursor: pointer;
+}
+.end{
+    width: 200vh;
+    height: 90%;
+    background-image: url(david-kovalenko-dnStBR008JM-unsplash.jpg);
+    background-size: cover;
+}
+.super4{
+    display: flex;
+    margin-top: 80px;
+}
+#work4{
+    
+    font-size: 30px;
+    float: right;
+    margin-right: 10px;
+    width: 30%;
+    margin-left: 40px;
+    font-size: 40px;
+    color: white;
+    
+}
+.searchbox4{
+    
+    margin-top: 50px;
+    height: 1px;
+    border-radius: 50px;
+    background: orange;
+    padding: 10px;
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#text{
+    margin-top: 50px;
+    margin-left: 450px;
+    height: 50px;
+    width: 40%;
+}
+.msg{
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 20px;
+   padding: 10px;
+    background-color: orange;
+    width: 15%
+}
+#text1{
+    margin-top: 0px;
+    margin-left: 450px;
+    width: 40%;
+    height: 150px;
+    margin-bottom: 60px;
+}
+.en1 h1{
+    margin-left: 400px;
+}
+.btn8{
+      margin-left: 650px;
+       padding: 30px;
+    background-color: orange;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    height: 5px;
+
+}
+.end2{
+    display: flex;
+    height: 20vh;
+    width: 110%;
+    background-color:black;;
+
+}
+.last{
+    border: 1px solid;
+    font-size: 20px;
+    border-style: dashed;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    border-color: orange;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.last1{
+    font-size: 20px;
+    color: white;
+    margin-top: 75px;
+    margin-left: 5px;
+}
+.foot3{
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-top: 65px;
+    font-size: 35px;
+}
+.last4{
+    margin-right: 80px;
+    margin-left: 50px;
+    color: white;
+    margin-top: 65px;
+    font-size: 20px;
+    
+}
+.btn9{
+    margin-top: 95px;
+    margin-left: 70px;
+    padding: 20px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.foot5{
+    margin-top: 65px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
